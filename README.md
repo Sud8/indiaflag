@@ -1,2 +1,2 @@
 # indiaflag
-Inidian Flag
+Simple Inidian Flag with rotation using CSS animation
