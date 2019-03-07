@@ -1,0 +1,68 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+  <style type="text/css">
+  	  .orange{
+  width:400px;
+  height:100px;
+  background-color:orange;
+}
+.white{
+  width:400px;
+  height:100px;
+  background-color:transparent;
+}
+.green{
+  width:400px;
+  height:100px;
+  background-color:green;
+}
+.chakra{
+	width:175px;
+    height:175px;
+    position: relative;
+    left:26%;
+    top:-35%;
+    /*transform:translate(-50%,-32%);*/
+    
+}
+
+.chakra img{
+  max-width: 100%;
+    max-height: 100%;
+     position: relative;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+</style>
+</head>
+<body>
+      
+      <div class="orange">  </div>
+      <div class="white">
+        <div class="chakra rotate">
+          <img src="chakra.png">
+        </div>  
+      </div>
+      <div class="green">  </div>
+
+</body>
+</html> 
